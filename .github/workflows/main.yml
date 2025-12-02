@@ -1,11 +1,11 @@
 name: python CI
 on: 
 push:
-branches:["main"]
+  branches:["main"]
 pull_request:
-branches:["main"]
+  branches:["main"]
 jobs:
-build:
+ build:
 runs-on:ubuntu-latest
 
 steps:
