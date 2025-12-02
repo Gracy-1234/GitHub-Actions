@@ -1,0 +1,4 @@
+name: python CI
+on: 
+push:
+branches:["main"]
